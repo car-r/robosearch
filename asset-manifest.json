@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/robosearch/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/robosearch/static/js/main.e14d8d8c.chunk.js",
+    "main.js.map": "/robosearch/static/js/main.e14d8d8c.chunk.js.map",
+    "runtime-main.js": "/robosearch/static/js/runtime-main.6f7deeea.js",
+    "runtime-main.js.map": "/robosearch/static/js/runtime-main.6f7deeea.js.map",
+    "static/js/2.79f7f8cb.chunk.js": "/robosearch/static/js/2.79f7f8cb.chunk.js",
+    "static/js/2.79f7f8cb.chunk.js.map": "/robosearch/static/js/2.79f7f8cb.chunk.js.map",
+    "static/js/3.02ff7980.chunk.js": "/robosearch/static/js/3.02ff7980.chunk.js",
+    "static/js/3.02ff7980.chunk.js.map": "/robosearch/static/js/3.02ff7980.chunk.js.map",
+    "index.html": "/robosearch/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/robosearch/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.79f7f8cb.chunk.js.LICENSE.txt": "/robosearch/static/js/2.79f7f8cb.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/robosearch/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f7deeea.js",
+    "static/js/2.79f7f8cb.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.e14d8d8c.chunk.js"
+  ]
+}
