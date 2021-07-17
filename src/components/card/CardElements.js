@@ -5,7 +5,7 @@ export const CardContainer = styled.div`
     flex-direction: column;
     background: #95dada;
     width: 265px;
-    padding: 1em;
+    padding: 1.25em;
     border-radius: 1em;
     margin: 0 auto;
     text-align: center;
@@ -32,11 +32,11 @@ export const CardName = styled.h2`
 export const CardItemContainer = styled.div`
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 `
 
 export const CardEmail = styled.p`
     font-size: 1rem;
-
+    
 `

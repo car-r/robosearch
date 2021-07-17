@@ -4,9 +4,11 @@ import axios from 'axios'
 import './App.css';
 import Header from './components/header';
 import CardList from './components/cardlist';
+import SearchBox from './components/searchbox';
 
 function App() {
   const [robots, setRobots] = useState([])
+  const [search, setSearch] = useState('')
 
   useEffect(() => {
     const fetchRobots = async () => {
@@ -17,10 +19,19 @@ function App() {
     fetchRobots()
   }, [])
 
+  const filteredRobots = robots.filter(robot => 
+    robot.name.toLowerCase().includes(search.toLowerCase())
+  )
+
+const handleChange = (e) => {
+  setSearch(e.target.value)
+} 
+
   return (
     <div className="App">
       <Header />
-      <CardList robots={robots}/>
+      <SearchBox placeholder='search robots' handleChange={handleChange} />
+      <CardList robots={filteredRobots}/>
     </div>
   );
 }
