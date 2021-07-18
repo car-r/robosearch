@@ -8,6 +8,7 @@ export const SearchBoxContainer = styled.div`
 
 export const SearchBoxInput = styled.input`
     margin: 0 auto;
-    padding: .5rem;
+    padding: .75rem;
+    padding-left: 1rem;
     font-size: 1.3rem;
 `
